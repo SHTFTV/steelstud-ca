@@ -1,9 +1,28 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    { "source": "/projects/", "destination": "/projects", "permanent": true }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+      ]
+    },
+    {
+      "source": "/llms.txt",
+      "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }]
+    },
+    {
+      "source": "/ai.txt",
+      "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }]
+    }
+  ],
   "rewrites": [
     { "source": "/projects", "destination": "/projects/index.html" },
-    { "source": "/projects/", "destination": "/projects/index.html" },
     { "source": "/((?!assets/|images/|projects/|projects$|.*\\.).*)", "destination": "/index.html" }
   ]
 }
