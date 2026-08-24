@@ -2,6 +2,8 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
-    { "source": "/((?!assets/|images/|.*\\.).*)", "destination": "/index.html" }
+    { "source": "/projects", "destination": "/projects/index.html" },
+    { "source": "/projects/", "destination": "/projects/index.html" },
+    { "source": "/((?!assets/|images/|projects/|projects$|.*\\.).*)", "destination": "/index.html" }
   ]
 }
