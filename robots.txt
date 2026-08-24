@@ -26,5 +26,5 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://steelstud.ca/sitemap.xml
-Sitemap: https://steelstud.ca/projects-sitemap.xml
+Sitemap: https://www.steelstud.ca/sitemap.xml
+Sitemap: https://www.steelstud.ca/projects-sitemap.xml
