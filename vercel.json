@@ -1,28 +1,987 @@
 {
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
-    { "source": "/projects/", "destination": "/projects", "permanent": true }
+    {
+      "source": "/service-areas/vancouver/framing-in-steel",
+      "destination": "/service-areas/vancouver#framing-in-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/vancouver/drywall",
+      "destination": "/service-areas/vancouver#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/vancouver/t-bar",
+      "destination": "/service-areas/vancouver#t-bar",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/vancouver/drop-ceilings",
+      "destination": "/service-areas/vancouver#drop-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/vancouver/tenant-improvements",
+      "destination": "/service-areas/vancouver#tenant-improvements",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/vancouver/office-buildouts",
+      "destination": "/service-areas/vancouver#office-buildouts",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/vancouver/framing-in-wood",
+      "destination": "/service-areas/vancouver#framing-in-wood",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/vancouver/architectural-steel",
+      "destination": "/service-areas/vancouver#architectural-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/vancouver/smoothing-ceilings",
+      "destination": "/service-areas/vancouver#smoothing-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/vancouver/texture",
+      "destination": "/service-areas/vancouver#texture",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/vancouver/repairs",
+      "destination": "/service-areas/vancouver#repairs",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/vancouver/home-improvement",
+      "destination": "/service-areas/vancouver#home-improvement",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/burnaby/framing-in-steel",
+      "destination": "/service-areas/burnaby#framing-in-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/burnaby/drywall",
+      "destination": "/service-areas/burnaby#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/burnaby/t-bar",
+      "destination": "/service-areas/burnaby#t-bar",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/burnaby/drop-ceilings",
+      "destination": "/service-areas/burnaby#drop-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/burnaby/tenant-improvements",
+      "destination": "/service-areas/burnaby#tenant-improvements",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/burnaby/office-buildouts",
+      "destination": "/service-areas/burnaby#office-buildouts",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/burnaby/framing-in-wood",
+      "destination": "/service-areas/burnaby#framing-in-wood",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/burnaby/architectural-steel",
+      "destination": "/service-areas/burnaby#architectural-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/burnaby/smoothing-ceilings",
+      "destination": "/service-areas/burnaby#smoothing-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/burnaby/texture",
+      "destination": "/service-areas/burnaby#texture",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/burnaby/repairs",
+      "destination": "/service-areas/burnaby#repairs",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/burnaby/home-improvement",
+      "destination": "/service-areas/burnaby#home-improvement",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/new-westminster/framing-in-steel",
+      "destination": "/service-areas/new-westminster#framing-in-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/new-westminster/drywall",
+      "destination": "/service-areas/new-westminster#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/new-westminster/t-bar",
+      "destination": "/service-areas/new-westminster#t-bar",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/new-westminster/drop-ceilings",
+      "destination": "/service-areas/new-westminster#drop-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/new-westminster/tenant-improvements",
+      "destination": "/service-areas/new-westminster#tenant-improvements",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/new-westminster/office-buildouts",
+      "destination": "/service-areas/new-westminster#office-buildouts",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/new-westminster/framing-in-wood",
+      "destination": "/service-areas/new-westminster#framing-in-wood",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/new-westminster/architectural-steel",
+      "destination": "/service-areas/new-westminster#architectural-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/new-westminster/smoothing-ceilings",
+      "destination": "/service-areas/new-westminster#smoothing-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/new-westminster/texture",
+      "destination": "/service-areas/new-westminster#texture",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/new-westminster/repairs",
+      "destination": "/service-areas/new-westminster#repairs",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/new-westminster/home-improvement",
+      "destination": "/service-areas/new-westminster#home-improvement",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/richmond/framing-in-steel",
+      "destination": "/service-areas/richmond#framing-in-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/richmond/drywall",
+      "destination": "/service-areas/richmond#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/richmond/t-bar",
+      "destination": "/service-areas/richmond#t-bar",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/richmond/drop-ceilings",
+      "destination": "/service-areas/richmond#drop-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/richmond/tenant-improvements",
+      "destination": "/service-areas/richmond#tenant-improvements",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/richmond/office-buildouts",
+      "destination": "/service-areas/richmond#office-buildouts",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/richmond/framing-in-wood",
+      "destination": "/service-areas/richmond#framing-in-wood",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/richmond/architectural-steel",
+      "destination": "/service-areas/richmond#architectural-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/richmond/smoothing-ceilings",
+      "destination": "/service-areas/richmond#smoothing-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/richmond/texture",
+      "destination": "/service-areas/richmond#texture",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/richmond/repairs",
+      "destination": "/service-areas/richmond#repairs",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/richmond/home-improvement",
+      "destination": "/service-areas/richmond#home-improvement",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/surrey/framing-in-steel",
+      "destination": "/service-areas/surrey#framing-in-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/surrey/drywall",
+      "destination": "/service-areas/surrey#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/surrey/t-bar",
+      "destination": "/service-areas/surrey#t-bar",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/surrey/drop-ceilings",
+      "destination": "/service-areas/surrey#drop-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/surrey/tenant-improvements",
+      "destination": "/service-areas/surrey#tenant-improvements",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/surrey/office-buildouts",
+      "destination": "/service-areas/surrey#office-buildouts",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/surrey/framing-in-wood",
+      "destination": "/service-areas/surrey#framing-in-wood",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/surrey/architectural-steel",
+      "destination": "/service-areas/surrey#architectural-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/surrey/smoothing-ceilings",
+      "destination": "/service-areas/surrey#smoothing-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/surrey/texture",
+      "destination": "/service-areas/surrey#texture",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/surrey/repairs",
+      "destination": "/service-areas/surrey#repairs",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/surrey/home-improvement",
+      "destination": "/service-areas/surrey#home-improvement",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/delta/framing-in-steel",
+      "destination": "/service-areas/delta#framing-in-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/delta/drywall",
+      "destination": "/service-areas/delta#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/delta/t-bar",
+      "destination": "/service-areas/delta#t-bar",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/delta/drop-ceilings",
+      "destination": "/service-areas/delta#drop-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/delta/tenant-improvements",
+      "destination": "/service-areas/delta#tenant-improvements",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/delta/office-buildouts",
+      "destination": "/service-areas/delta#office-buildouts",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/delta/framing-in-wood",
+      "destination": "/service-areas/delta#framing-in-wood",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/delta/architectural-steel",
+      "destination": "/service-areas/delta#architectural-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/delta/smoothing-ceilings",
+      "destination": "/service-areas/delta#smoothing-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/delta/texture",
+      "destination": "/service-areas/delta#texture",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/delta/repairs",
+      "destination": "/service-areas/delta#repairs",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/delta/home-improvement",
+      "destination": "/service-areas/delta#home-improvement",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/white-rock/framing-in-steel",
+      "destination": "/service-areas/white-rock#framing-in-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/white-rock/drywall",
+      "destination": "/service-areas/white-rock#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/white-rock/t-bar",
+      "destination": "/service-areas/white-rock#t-bar",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/white-rock/drop-ceilings",
+      "destination": "/service-areas/white-rock#drop-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/white-rock/tenant-improvements",
+      "destination": "/service-areas/white-rock#tenant-improvements",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/white-rock/office-buildouts",
+      "destination": "/service-areas/white-rock#office-buildouts",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/white-rock/framing-in-wood",
+      "destination": "/service-areas/white-rock#framing-in-wood",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/white-rock/architectural-steel",
+      "destination": "/service-areas/white-rock#architectural-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/white-rock/smoothing-ceilings",
+      "destination": "/service-areas/white-rock#smoothing-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/white-rock/texture",
+      "destination": "/service-areas/white-rock#texture",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/white-rock/repairs",
+      "destination": "/service-areas/white-rock#repairs",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/white-rock/home-improvement",
+      "destination": "/service-areas/white-rock#home-improvement",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/coquitlam/framing-in-steel",
+      "destination": "/service-areas/coquitlam#framing-in-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/coquitlam/drywall",
+      "destination": "/service-areas/coquitlam#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/coquitlam/t-bar",
+      "destination": "/service-areas/coquitlam#t-bar",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/coquitlam/drop-ceilings",
+      "destination": "/service-areas/coquitlam#drop-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/coquitlam/tenant-improvements",
+      "destination": "/service-areas/coquitlam#tenant-improvements",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/coquitlam/office-buildouts",
+      "destination": "/service-areas/coquitlam#office-buildouts",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/coquitlam/framing-in-wood",
+      "destination": "/service-areas/coquitlam#framing-in-wood",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/coquitlam/architectural-steel",
+      "destination": "/service-areas/coquitlam#architectural-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/coquitlam/smoothing-ceilings",
+      "destination": "/service-areas/coquitlam#smoothing-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/coquitlam/texture",
+      "destination": "/service-areas/coquitlam#texture",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/coquitlam/repairs",
+      "destination": "/service-areas/coquitlam#repairs",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/coquitlam/home-improvement",
+      "destination": "/service-areas/coquitlam#home-improvement",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/port-coquitlam/framing-in-steel",
+      "destination": "/service-areas/port-coquitlam#framing-in-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/port-coquitlam/drywall",
+      "destination": "/service-areas/port-coquitlam#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/port-coquitlam/t-bar",
+      "destination": "/service-areas/port-coquitlam#t-bar",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/port-coquitlam/drop-ceilings",
+      "destination": "/service-areas/port-coquitlam#drop-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/port-coquitlam/tenant-improvements",
+      "destination": "/service-areas/port-coquitlam#tenant-improvements",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/port-coquitlam/office-buildouts",
+      "destination": "/service-areas/port-coquitlam#office-buildouts",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/port-coquitlam/framing-in-wood",
+      "destination": "/service-areas/port-coquitlam#framing-in-wood",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/port-coquitlam/architectural-steel",
+      "destination": "/service-areas/port-coquitlam#architectural-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/port-coquitlam/smoothing-ceilings",
+      "destination": "/service-areas/port-coquitlam#smoothing-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/port-coquitlam/texture",
+      "destination": "/service-areas/port-coquitlam#texture",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/port-coquitlam/repairs",
+      "destination": "/service-areas/port-coquitlam#repairs",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/port-coquitlam/home-improvement",
+      "destination": "/service-areas/port-coquitlam#home-improvement",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/port-moody/framing-in-steel",
+      "destination": "/service-areas/port-moody#framing-in-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/port-moody/drywall",
+      "destination": "/service-areas/port-moody#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/port-moody/t-bar",
+      "destination": "/service-areas/port-moody#t-bar",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/port-moody/drop-ceilings",
+      "destination": "/service-areas/port-moody#drop-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/port-moody/tenant-improvements",
+      "destination": "/service-areas/port-moody#tenant-improvements",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/port-moody/office-buildouts",
+      "destination": "/service-areas/port-moody#office-buildouts",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/port-moody/framing-in-wood",
+      "destination": "/service-areas/port-moody#framing-in-wood",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/port-moody/architectural-steel",
+      "destination": "/service-areas/port-moody#architectural-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/port-moody/smoothing-ceilings",
+      "destination": "/service-areas/port-moody#smoothing-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/port-moody/texture",
+      "destination": "/service-areas/port-moody#texture",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/port-moody/repairs",
+      "destination": "/service-areas/port-moody#repairs",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/port-moody/home-improvement",
+      "destination": "/service-areas/port-moody#home-improvement",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/north-vancouver/framing-in-steel",
+      "destination": "/service-areas/north-vancouver#framing-in-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/north-vancouver/drywall",
+      "destination": "/service-areas/north-vancouver#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/north-vancouver/t-bar",
+      "destination": "/service-areas/north-vancouver#t-bar",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/north-vancouver/drop-ceilings",
+      "destination": "/service-areas/north-vancouver#drop-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/north-vancouver/tenant-improvements",
+      "destination": "/service-areas/north-vancouver#tenant-improvements",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/north-vancouver/office-buildouts",
+      "destination": "/service-areas/north-vancouver#office-buildouts",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/north-vancouver/framing-in-wood",
+      "destination": "/service-areas/north-vancouver#framing-in-wood",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/north-vancouver/architectural-steel",
+      "destination": "/service-areas/north-vancouver#architectural-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/north-vancouver/smoothing-ceilings",
+      "destination": "/service-areas/north-vancouver#smoothing-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/north-vancouver/texture",
+      "destination": "/service-areas/north-vancouver#texture",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/north-vancouver/repairs",
+      "destination": "/service-areas/north-vancouver#repairs",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/north-vancouver/home-improvement",
+      "destination": "/service-areas/north-vancouver#home-improvement",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/west-vancouver/framing-in-steel",
+      "destination": "/service-areas/west-vancouver#framing-in-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/west-vancouver/drywall",
+      "destination": "/service-areas/west-vancouver#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/west-vancouver/t-bar",
+      "destination": "/service-areas/west-vancouver#t-bar",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/west-vancouver/drop-ceilings",
+      "destination": "/service-areas/west-vancouver#drop-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/west-vancouver/tenant-improvements",
+      "destination": "/service-areas/west-vancouver#tenant-improvements",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/west-vancouver/office-buildouts",
+      "destination": "/service-areas/west-vancouver#office-buildouts",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/west-vancouver/framing-in-wood",
+      "destination": "/service-areas/west-vancouver#framing-in-wood",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/west-vancouver/architectural-steel",
+      "destination": "/service-areas/west-vancouver#architectural-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/west-vancouver/smoothing-ceilings",
+      "destination": "/service-areas/west-vancouver#smoothing-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/west-vancouver/texture",
+      "destination": "/service-areas/west-vancouver#texture",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/west-vancouver/repairs",
+      "destination": "/service-areas/west-vancouver#repairs",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/west-vancouver/home-improvement",
+      "destination": "/service-areas/west-vancouver#home-improvement",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/langley/framing-in-steel",
+      "destination": "/service-areas/langley#framing-in-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/langley/drywall",
+      "destination": "/service-areas/langley#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/langley/t-bar",
+      "destination": "/service-areas/langley#t-bar",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/langley/drop-ceilings",
+      "destination": "/service-areas/langley#drop-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/langley/tenant-improvements",
+      "destination": "/service-areas/langley#tenant-improvements",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/langley/office-buildouts",
+      "destination": "/service-areas/langley#office-buildouts",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/langley/framing-in-wood",
+      "destination": "/service-areas/langley#framing-in-wood",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/langley/architectural-steel",
+      "destination": "/service-areas/langley#architectural-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/langley/smoothing-ceilings",
+      "destination": "/service-areas/langley#smoothing-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/langley/texture",
+      "destination": "/service-areas/langley#texture",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/langley/repairs",
+      "destination": "/service-areas/langley#repairs",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/langley/home-improvement",
+      "destination": "/service-areas/langley#home-improvement",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/maple-ridge/framing-in-steel",
+      "destination": "/service-areas/maple-ridge#framing-in-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/maple-ridge/drywall",
+      "destination": "/service-areas/maple-ridge#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/maple-ridge/t-bar",
+      "destination": "/service-areas/maple-ridge#t-bar",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/maple-ridge/drop-ceilings",
+      "destination": "/service-areas/maple-ridge#drop-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/maple-ridge/tenant-improvements",
+      "destination": "/service-areas/maple-ridge#tenant-improvements",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/maple-ridge/office-buildouts",
+      "destination": "/service-areas/maple-ridge#office-buildouts",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/maple-ridge/framing-in-wood",
+      "destination": "/service-areas/maple-ridge#framing-in-wood",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/maple-ridge/architectural-steel",
+      "destination": "/service-areas/maple-ridge#architectural-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/maple-ridge/smoothing-ceilings",
+      "destination": "/service-areas/maple-ridge#smoothing-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/maple-ridge/texture",
+      "destination": "/service-areas/maple-ridge#texture",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/maple-ridge/repairs",
+      "destination": "/service-areas/maple-ridge#repairs",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/maple-ridge/home-improvement",
+      "destination": "/service-areas/maple-ridge#home-improvement",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/pitt-meadows/framing-in-steel",
+      "destination": "/service-areas/pitt-meadows#framing-in-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/pitt-meadows/drywall",
+      "destination": "/service-areas/pitt-meadows#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/pitt-meadows/t-bar",
+      "destination": "/service-areas/pitt-meadows#t-bar",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/pitt-meadows/drop-ceilings",
+      "destination": "/service-areas/pitt-meadows#drop-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/pitt-meadows/tenant-improvements",
+      "destination": "/service-areas/pitt-meadows#tenant-improvements",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/pitt-meadows/office-buildouts",
+      "destination": "/service-areas/pitt-meadows#office-buildouts",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/pitt-meadows/framing-in-wood",
+      "destination": "/service-areas/pitt-meadows#framing-in-wood",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/pitt-meadows/architectural-steel",
+      "destination": "/service-areas/pitt-meadows#architectural-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/pitt-meadows/smoothing-ceilings",
+      "destination": "/service-areas/pitt-meadows#smoothing-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/pitt-meadows/texture",
+      "destination": "/service-areas/pitt-meadows#texture",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/pitt-meadows/repairs",
+      "destination": "/service-areas/pitt-meadows#repairs",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/pitt-meadows/home-improvement",
+      "destination": "/service-areas/pitt-meadows#home-improvement",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/abbotsford/framing-in-steel",
+      "destination": "/service-areas/abbotsford#framing-in-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/abbotsford/drywall",
+      "destination": "/service-areas/abbotsford#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/abbotsford/t-bar",
+      "destination": "/service-areas/abbotsford#t-bar",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/abbotsford/drop-ceilings",
+      "destination": "/service-areas/abbotsford#drop-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/abbotsford/tenant-improvements",
+      "destination": "/service-areas/abbotsford#tenant-improvements",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/abbotsford/office-buildouts",
+      "destination": "/service-areas/abbotsford#office-buildouts",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/abbotsford/framing-in-wood",
+      "destination": "/service-areas/abbotsford#framing-in-wood",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/abbotsford/architectural-steel",
+      "destination": "/service-areas/abbotsford#architectural-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/abbotsford/smoothing-ceilings",
+      "destination": "/service-areas/abbotsford#smoothing-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/abbotsford/texture",
+      "destination": "/service-areas/abbotsford#texture",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/abbotsford/repairs",
+      "destination": "/service-areas/abbotsford#repairs",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/abbotsford/home-improvement",
+      "destination": "/service-areas/abbotsford#home-improvement",
+      "permanent": true
+    }
   ],
   "headers": [
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        }
       ]
-    },
-    {
-      "source": "/llms.txt",
-      "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }]
-    },
-    {
-      "source": "/ai.txt",
-      "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }]
     }
-  ],
-  "rewrites": [
-    { "source": "/projects", "destination": "/projects/index.html" },
-    { "source": "/((?!assets/|images/|projects/|projects$|.*\\.).*)", "destination": "/index.html" }
   ]
 }
