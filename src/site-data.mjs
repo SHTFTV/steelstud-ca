@@ -43,11 +43,7 @@ export const cities = [
   ["mission", "Mission", "Hillside homes, secondary suites, townhomes and growing multi-family developments in Mission benefit from careful material planning, service coordination and durable drywall finishes."],
   ["anmore", "Anmore", "Custom homes, basement suites and renovation projects in Anmore demand careful access planning, premium finish standards and close coordination with residential trades."],
   ["belcarra", "Belcarra", "Waterfront and custom residential properties in Belcarra require tidy work, moisture-aware repair planning and finish quality suited to high-value occupied homes."],
-  ["bowen-island", "Bowen Island", "Island logistics make accurate material lists, consolidated deliveries and well-planned drywall scopes especially important for Bowen Island homes and renovations."],
   ["lions-bay", "Lions Bay", "Steep access, custom homes and exposed coastal conditions in Lions Bay call for organized deliveries, clean occupied-home work and careful ceiling and wall finishing."],
-  ["harrison-hot-springs", "Harrison Hot Springs", "Hospitality, condominium and residential properties in Harrison Hot Springs benefit from durable repair work and efficiently scheduled boarding and finishing."],
-  ["hope", "Hope", "Homes, commercial properties and community buildings in Hope require practical drywall repair and installation scopes with materials and visits planned efficiently."],
-  ["kent", "Kent", "Residential, agricultural and small commercial properties across Kent and Agassiz benefit from flexible drywall crews and straightforward project coordination."],
 ].map(([slug,name,local]) => ({slug,name,local}));
 
 export const drywallSolutions = [
