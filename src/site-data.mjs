@@ -55,6 +55,30 @@ export const drywallSolutions = [
   { slug:"multifamily-rental-drywall", name:"Multi-Family & Purpose-Built Rental Drywall", image:"service-steel.png", intro:"Scalable framing, boarding and finishing for repeated suites, corridors, amenity spaces and purpose-built rental interiors.", scope:["Repeated suite wall and ceiling packages","Corridors and common areas","Fire and acoustic assembly coordination","Production sequencing and deficiency work"], property:"apartments, purpose-built rentals, condominiums and multi-building developments" },
 ];
 
+// Repair pages deliberately target small, urgent, diagnostic work. Larger
+// boarding projects belong on Drywallers.io so the two sites do not compete
+// with near-duplicate pages.
+export const repairProblems = [
+  { slug:"hole-in-wall", name:"Hole in the Wall Repair", intro:"Repairs for impact holes, failed anchors, plumbing access cuts and damaged board, rebuilt with backing and finished into the surrounding wall.", scope:["Small dents and anchor damage","Medium and large impact holes","Plumbing and electrical access cuts","Paint-ready feathered finishing"] },
+  { slug:"ceiling-cracks", name:"Ceiling Crack Repair", intro:"Assessment and repair of ceiling cracks, failed joints and recurring movement lines, with the cause reviewed before the surface is closed.", scope:["Tape-joint and seam cracks","Corner and transition cracking","Localized sagging or fastener pops","Smooth or textured finish blending"] },
+  { slug:"water-damage", name:"Water-Damaged Drywall Repair", intro:"Removal and replacement of water-damaged wall or ceiling board after the leak is stopped and the assembly is dry.", scope:["Stained or softened drywall","Ceiling sections damaged by leaks","Insulation and cavity condition review","Texture matching and paint-ready finishing"] },
+];
+
+export const repairNeighbourhoods = [
+  ["kitsilano","Kitsilano","Older houses, low-rise strata buildings and renovated suites often combine plaster-era transitions with newer drywall repairs."],
+  ["mount-pleasant","Mount Pleasant","Character homes, laneway projects and mixed-use buildings require tidy access planning and careful blending into existing finishes."],
+  ["commercial-drive","Commercial Drive","Occupied homes, rental suites and older low-rise buildings benefit from contained dust control and repairs that respect layered renovations."],
+  ["east-vancouver","East Vancouver","Bungalows, duplexes and basement suites commonly need repairs after service upgrades, leaks and interior alterations."],
+  ["downtown-vancouver","Downtown Vancouver","Condominium repairs require elevator bookings, protected common areas, approved work hours and compact material handling."],
+  ["yaletown","Yaletown","High-rise suites place a premium on clean access, controlled dust and seamless wall and ceiling finishes under strong natural light."],
+  ["west-end","West End","Older towers and rental buildings often need localized repairs coordinated around occupied suites and building procedures."],
+  ["point-grey","Point Grey","Custom homes and renovations require careful colour, texture and surface transitions so repaired areas do not telegraph."],
+  ["metrotown","Metrotown","High-rise condominium work requires organized loading, elevator coordination and clean repair methods for occupied suites."],
+  ["brentwood","Brentwood","Newer towers and renovated units need precise patches around plumbing, electrical and fixture changes."],
+  ["newton","Newton","Family homes, rental suites and townhouses commonly need impact, moisture and renovation-related drywall repairs."],
+  ["cloverdale","Cloverdale","Detached homes, additions and secondary suites require durable repairs that blend with existing walls and ceilings."],
+].map(([slug,name,local])=>({slug,name,local}));
+
 export const projects = [
   { slug: "new-westminster-condo-dropped-ceiling", title: "New Westminster condominium dropped ceiling", image: "service-drop-ceilings.png", text: "A steel-stud and drywall ceiling drop created a clean cavity for recessed lighting and building services while preserving usable ceiling height.", challenge: "The renovation needed room for recessed lighting and services without making the condominium feel unnecessarily low or visually heavy.", approach: "A carefully laid-out light-gauge steel frame established a straight, stable ceiling plane. Openings and clearances were coordinated before board installation so the finished ceiling aligned with the lighting plan.", lesson: "Ceiling drops work best when framing, lighting layout and final drywall details are decided together—not handed from one trade to the next." },
   { slug: "custom-suspended-cloud-ceiling", title: "Custom suspended cloud ceiling", image: "hero-home-wide.png", text: "A suspended steel-stud framework formed a precise architectural ceiling feature, then received drywall and a smooth finish.", challenge: "A floating ceiling feature needs to look light and intentional while its concealed support remains rigid and accurately positioned.", approach: "The assembly was set out from finished reference lines, framed in steel and checked before drywall enclosed the structure. Edge proportions and the relationship to the surrounding ceiling controlled the visual result.", lesson: "Architectural ceiling features expose small layout errors. Early reference lines and repeated dimension checks protect the final geometry." },
