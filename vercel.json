@@ -25,6 +25,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/vancouver/flooring",
+      "destination": "/service-areas/vancouver#flooring",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/vancouver/tenant-improvements",
       "destination": "/service-areas/vancouver#tenant-improvements",
       "permanent": true
@@ -82,6 +87,11 @@
     {
       "source": "/service-areas/burnaby/drop-ceilings",
       "destination": "/service-areas/burnaby#drop-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/burnaby/flooring",
+      "destination": "/service-areas/burnaby#flooring",
       "permanent": true
     },
     {
@@ -145,6 +155,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/new-westminster/flooring",
+      "destination": "/service-areas/new-westminster#flooring",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/new-westminster/tenant-improvements",
       "destination": "/service-areas/new-westminster#tenant-improvements",
       "permanent": true
@@ -202,6 +217,11 @@
     {
       "source": "/service-areas/richmond/drop-ceilings",
       "destination": "/service-areas/richmond#drop-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/richmond/flooring",
+      "destination": "/service-areas/richmond#flooring",
       "permanent": true
     },
     {
@@ -265,6 +285,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/surrey/flooring",
+      "destination": "/service-areas/surrey#flooring",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/surrey/tenant-improvements",
       "destination": "/service-areas/surrey#tenant-improvements",
       "permanent": true
@@ -322,6 +347,11 @@
     {
       "source": "/service-areas/delta/drop-ceilings",
       "destination": "/service-areas/delta#drop-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/delta/flooring",
+      "destination": "/service-areas/delta#flooring",
       "permanent": true
     },
     {
@@ -385,6 +415,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/white-rock/flooring",
+      "destination": "/service-areas/white-rock#flooring",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/white-rock/tenant-improvements",
       "destination": "/service-areas/white-rock#tenant-improvements",
       "permanent": true
@@ -442,6 +477,11 @@
     {
       "source": "/service-areas/coquitlam/drop-ceilings",
       "destination": "/service-areas/coquitlam#drop-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/coquitlam/flooring",
+      "destination": "/service-areas/coquitlam#flooring",
       "permanent": true
     },
     {
@@ -505,6 +545,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/port-coquitlam/flooring",
+      "destination": "/service-areas/port-coquitlam#flooring",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/port-coquitlam/tenant-improvements",
       "destination": "/service-areas/port-coquitlam#tenant-improvements",
       "permanent": true
@@ -562,6 +607,11 @@
     {
       "source": "/service-areas/port-moody/drop-ceilings",
       "destination": "/service-areas/port-moody#drop-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/port-moody/flooring",
+      "destination": "/service-areas/port-moody#flooring",
       "permanent": true
     },
     {
@@ -625,6 +675,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/north-vancouver/flooring",
+      "destination": "/service-areas/north-vancouver#flooring",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/north-vancouver/tenant-improvements",
       "destination": "/service-areas/north-vancouver#tenant-improvements",
       "permanent": true
@@ -682,6 +737,11 @@
     {
       "source": "/service-areas/west-vancouver/drop-ceilings",
       "destination": "/service-areas/west-vancouver#drop-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/west-vancouver/flooring",
+      "destination": "/service-areas/west-vancouver#flooring",
       "permanent": true
     },
     {
@@ -745,6 +805,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/langley/flooring",
+      "destination": "/service-areas/langley#flooring",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/langley/tenant-improvements",
       "destination": "/service-areas/langley#tenant-improvements",
       "permanent": true
@@ -802,6 +867,11 @@
     {
       "source": "/service-areas/maple-ridge/drop-ceilings",
       "destination": "/service-areas/maple-ridge#drop-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/maple-ridge/flooring",
+      "destination": "/service-areas/maple-ridge#flooring",
       "permanent": true
     },
     {
@@ -865,6 +935,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/pitt-meadows/flooring",
+      "destination": "/service-areas/pitt-meadows#flooring",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/pitt-meadows/tenant-improvements",
       "destination": "/service-areas/pitt-meadows#tenant-improvements",
       "permanent": true
@@ -925,6 +1000,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/abbotsford/flooring",
+      "destination": "/service-areas/abbotsford#flooring",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/abbotsford/tenant-improvements",
       "destination": "/service-areas/abbotsford#tenant-improvements",
       "permanent": true
@@ -962,6 +1042,331 @@
     {
       "source": "/service-areas/abbotsford/home-improvement",
       "destination": "/service-areas/abbotsford#home-improvement",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/chilliwack/framing-in-steel",
+      "destination": "/service-areas/chilliwack#framing-in-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/chilliwack/drywall",
+      "destination": "/service-areas/chilliwack#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/chilliwack/t-bar",
+      "destination": "/service-areas/chilliwack#t-bar",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/chilliwack/drop-ceilings",
+      "destination": "/service-areas/chilliwack#drop-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/chilliwack/flooring",
+      "destination": "/service-areas/chilliwack#flooring",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/chilliwack/tenant-improvements",
+      "destination": "/service-areas/chilliwack#tenant-improvements",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/chilliwack/office-buildouts",
+      "destination": "/service-areas/chilliwack#office-buildouts",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/chilliwack/framing-in-wood",
+      "destination": "/service-areas/chilliwack#framing-in-wood",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/chilliwack/architectural-steel",
+      "destination": "/service-areas/chilliwack#architectural-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/chilliwack/smoothing-ceilings",
+      "destination": "/service-areas/chilliwack#smoothing-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/chilliwack/texture",
+      "destination": "/service-areas/chilliwack#texture",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/chilliwack/repairs",
+      "destination": "/service-areas/chilliwack#repairs",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/chilliwack/home-improvement",
+      "destination": "/service-areas/chilliwack#home-improvement",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/mission/framing-in-steel",
+      "destination": "/service-areas/mission#framing-in-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/mission/drywall",
+      "destination": "/service-areas/mission#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/mission/t-bar",
+      "destination": "/service-areas/mission#t-bar",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/mission/drop-ceilings",
+      "destination": "/service-areas/mission#drop-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/mission/flooring",
+      "destination": "/service-areas/mission#flooring",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/mission/tenant-improvements",
+      "destination": "/service-areas/mission#tenant-improvements",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/mission/office-buildouts",
+      "destination": "/service-areas/mission#office-buildouts",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/mission/framing-in-wood",
+      "destination": "/service-areas/mission#framing-in-wood",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/mission/architectural-steel",
+      "destination": "/service-areas/mission#architectural-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/mission/smoothing-ceilings",
+      "destination": "/service-areas/mission#smoothing-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/mission/texture",
+      "destination": "/service-areas/mission#texture",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/mission/repairs",
+      "destination": "/service-areas/mission#repairs",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/mission/home-improvement",
+      "destination": "/service-areas/mission#home-improvement",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/anmore/framing-in-steel",
+      "destination": "/service-areas/anmore#framing-in-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/anmore/drywall",
+      "destination": "/service-areas/anmore#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/anmore/t-bar",
+      "destination": "/service-areas/anmore#t-bar",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/anmore/drop-ceilings",
+      "destination": "/service-areas/anmore#drop-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/anmore/flooring",
+      "destination": "/service-areas/anmore#flooring",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/anmore/tenant-improvements",
+      "destination": "/service-areas/anmore#tenant-improvements",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/anmore/office-buildouts",
+      "destination": "/service-areas/anmore#office-buildouts",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/anmore/framing-in-wood",
+      "destination": "/service-areas/anmore#framing-in-wood",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/anmore/architectural-steel",
+      "destination": "/service-areas/anmore#architectural-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/anmore/smoothing-ceilings",
+      "destination": "/service-areas/anmore#smoothing-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/anmore/texture",
+      "destination": "/service-areas/anmore#texture",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/anmore/repairs",
+      "destination": "/service-areas/anmore#repairs",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/anmore/home-improvement",
+      "destination": "/service-areas/anmore#home-improvement",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/belcarra/framing-in-steel",
+      "destination": "/service-areas/belcarra#framing-in-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/belcarra/drywall",
+      "destination": "/service-areas/belcarra#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/belcarra/t-bar",
+      "destination": "/service-areas/belcarra#t-bar",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/belcarra/drop-ceilings",
+      "destination": "/service-areas/belcarra#drop-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/belcarra/flooring",
+      "destination": "/service-areas/belcarra#flooring",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/belcarra/tenant-improvements",
+      "destination": "/service-areas/belcarra#tenant-improvements",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/belcarra/office-buildouts",
+      "destination": "/service-areas/belcarra#office-buildouts",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/belcarra/framing-in-wood",
+      "destination": "/service-areas/belcarra#framing-in-wood",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/belcarra/architectural-steel",
+      "destination": "/service-areas/belcarra#architectural-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/belcarra/smoothing-ceilings",
+      "destination": "/service-areas/belcarra#smoothing-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/belcarra/texture",
+      "destination": "/service-areas/belcarra#texture",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/belcarra/repairs",
+      "destination": "/service-areas/belcarra#repairs",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/belcarra/home-improvement",
+      "destination": "/service-areas/belcarra#home-improvement",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/lions-bay/framing-in-steel",
+      "destination": "/service-areas/lions-bay#framing-in-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/lions-bay/drywall",
+      "destination": "/service-areas/lions-bay#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/lions-bay/t-bar",
+      "destination": "/service-areas/lions-bay#t-bar",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/lions-bay/drop-ceilings",
+      "destination": "/service-areas/lions-bay#drop-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/lions-bay/flooring",
+      "destination": "/service-areas/lions-bay#flooring",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/lions-bay/tenant-improvements",
+      "destination": "/service-areas/lions-bay#tenant-improvements",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/lions-bay/office-buildouts",
+      "destination": "/service-areas/lions-bay#office-buildouts",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/lions-bay/framing-in-wood",
+      "destination": "/service-areas/lions-bay#framing-in-wood",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/lions-bay/architectural-steel",
+      "destination": "/service-areas/lions-bay#architectural-steel",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/lions-bay/smoothing-ceilings",
+      "destination": "/service-areas/lions-bay#smoothing-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/lions-bay/texture",
+      "destination": "/service-areas/lions-bay#texture",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/lions-bay/repairs",
+      "destination": "/service-areas/lions-bay#repairs",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/lions-bay/home-improvement",
+      "destination": "/service-areas/lions-bay#home-improvement",
       "permanent": true
     }
   ],
