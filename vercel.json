@@ -30,6 +30,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/vancouver/bathroom-renovations",
+      "destination": "/service-areas/vancouver#bathroom-renovations",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/vancouver/tenant-improvements",
       "destination": "/service-areas/vancouver#tenant-improvements",
       "permanent": true
@@ -92,6 +97,11 @@
     {
       "source": "/service-areas/burnaby/flooring",
       "destination": "/service-areas/burnaby#flooring",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/burnaby/bathroom-renovations",
+      "destination": "/service-areas/burnaby#bathroom-renovations",
       "permanent": true
     },
     {
@@ -160,6 +170,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/new-westminster/bathroom-renovations",
+      "destination": "/service-areas/new-westminster#bathroom-renovations",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/new-westminster/tenant-improvements",
       "destination": "/service-areas/new-westminster#tenant-improvements",
       "permanent": true
@@ -222,6 +237,11 @@
     {
       "source": "/service-areas/richmond/flooring",
       "destination": "/service-areas/richmond#flooring",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/richmond/bathroom-renovations",
+      "destination": "/service-areas/richmond#bathroom-renovations",
       "permanent": true
     },
     {
@@ -290,6 +310,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/surrey/bathroom-renovations",
+      "destination": "/service-areas/surrey#bathroom-renovations",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/surrey/tenant-improvements",
       "destination": "/service-areas/surrey#tenant-improvements",
       "permanent": true
@@ -352,6 +377,11 @@
     {
       "source": "/service-areas/delta/flooring",
       "destination": "/service-areas/delta#flooring",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/delta/bathroom-renovations",
+      "destination": "/service-areas/delta#bathroom-renovations",
       "permanent": true
     },
     {
@@ -420,6 +450,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/white-rock/bathroom-renovations",
+      "destination": "/service-areas/white-rock#bathroom-renovations",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/white-rock/tenant-improvements",
       "destination": "/service-areas/white-rock#tenant-improvements",
       "permanent": true
@@ -482,6 +517,11 @@
     {
       "source": "/service-areas/coquitlam/flooring",
       "destination": "/service-areas/coquitlam#flooring",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/coquitlam/bathroom-renovations",
+      "destination": "/service-areas/coquitlam#bathroom-renovations",
       "permanent": true
     },
     {
@@ -550,6 +590,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/port-coquitlam/bathroom-renovations",
+      "destination": "/service-areas/port-coquitlam#bathroom-renovations",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/port-coquitlam/tenant-improvements",
       "destination": "/service-areas/port-coquitlam#tenant-improvements",
       "permanent": true
@@ -612,6 +657,11 @@
     {
       "source": "/service-areas/port-moody/flooring",
       "destination": "/service-areas/port-moody#flooring",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/port-moody/bathroom-renovations",
+      "destination": "/service-areas/port-moody#bathroom-renovations",
       "permanent": true
     },
     {
@@ -680,6 +730,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/north-vancouver/bathroom-renovations",
+      "destination": "/service-areas/north-vancouver#bathroom-renovations",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/north-vancouver/tenant-improvements",
       "destination": "/service-areas/north-vancouver#tenant-improvements",
       "permanent": true
@@ -742,6 +797,11 @@
     {
       "source": "/service-areas/west-vancouver/flooring",
       "destination": "/service-areas/west-vancouver#flooring",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/west-vancouver/bathroom-renovations",
+      "destination": "/service-areas/west-vancouver#bathroom-renovations",
       "permanent": true
     },
     {
@@ -810,6 +870,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/langley/bathroom-renovations",
+      "destination": "/service-areas/langley#bathroom-renovations",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/langley/tenant-improvements",
       "destination": "/service-areas/langley#tenant-improvements",
       "permanent": true
@@ -872,6 +937,11 @@
     {
       "source": "/service-areas/maple-ridge/flooring",
       "destination": "/service-areas/maple-ridge#flooring",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/maple-ridge/bathroom-renovations",
+      "destination": "/service-areas/maple-ridge#bathroom-renovations",
       "permanent": true
     },
     {
@@ -940,6 +1010,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/pitt-meadows/bathroom-renovations",
+      "destination": "/service-areas/pitt-meadows#bathroom-renovations",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/pitt-meadows/tenant-improvements",
       "destination": "/service-areas/pitt-meadows#tenant-improvements",
       "permanent": true
@@ -1002,6 +1077,11 @@
     {
       "source": "/service-areas/abbotsford/flooring",
       "destination": "/service-areas/abbotsford#flooring",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/abbotsford/bathroom-renovations",
+      "destination": "/service-areas/abbotsford#bathroom-renovations",
       "permanent": true
     },
     {
@@ -1070,6 +1150,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/chilliwack/bathroom-renovations",
+      "destination": "/service-areas/chilliwack#bathroom-renovations",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/chilliwack/tenant-improvements",
       "destination": "/service-areas/chilliwack#tenant-improvements",
       "permanent": true
@@ -1132,6 +1217,11 @@
     {
       "source": "/service-areas/mission/flooring",
       "destination": "/service-areas/mission#flooring",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/mission/bathroom-renovations",
+      "destination": "/service-areas/mission#bathroom-renovations",
       "permanent": true
     },
     {
@@ -1200,6 +1290,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/anmore/bathroom-renovations",
+      "destination": "/service-areas/anmore#bathroom-renovations",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/anmore/tenant-improvements",
       "destination": "/service-areas/anmore#tenant-improvements",
       "permanent": true
@@ -1265,6 +1360,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/belcarra/bathroom-renovations",
+      "destination": "/service-areas/belcarra#bathroom-renovations",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/belcarra/tenant-improvements",
       "destination": "/service-areas/belcarra#tenant-improvements",
       "permanent": true
@@ -1327,6 +1427,11 @@
     {
       "source": "/service-areas/lions-bay/flooring",
       "destination": "/service-areas/lions-bay#flooring",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/lions-bay/bathroom-renovations",
+      "destination": "/service-areas/lions-bay#bathroom-renovations",
       "permanent": true
     },
     {
