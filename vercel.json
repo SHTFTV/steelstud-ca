@@ -15,6 +15,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/vancouver/insulation-vapour-barriers",
+      "destination": "/service-areas/vancouver#insulation-vapour-barriers",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/vancouver/t-bar",
       "destination": "/service-areas/vancouver#t-bar",
       "permanent": true
@@ -82,6 +87,11 @@
     {
       "source": "/service-areas/burnaby/drywall",
       "destination": "/service-areas/burnaby#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/burnaby/insulation-vapour-barriers",
+      "destination": "/service-areas/burnaby#insulation-vapour-barriers",
       "permanent": true
     },
     {
@@ -155,6 +165,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/new-westminster/insulation-vapour-barriers",
+      "destination": "/service-areas/new-westminster#insulation-vapour-barriers",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/new-westminster/t-bar",
       "destination": "/service-areas/new-westminster#t-bar",
       "permanent": true
@@ -222,6 +237,11 @@
     {
       "source": "/service-areas/richmond/drywall",
       "destination": "/service-areas/richmond#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/richmond/insulation-vapour-barriers",
+      "destination": "/service-areas/richmond#insulation-vapour-barriers",
       "permanent": true
     },
     {
@@ -295,6 +315,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/surrey/insulation-vapour-barriers",
+      "destination": "/service-areas/surrey#insulation-vapour-barriers",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/surrey/t-bar",
       "destination": "/service-areas/surrey#t-bar",
       "permanent": true
@@ -362,6 +387,11 @@
     {
       "source": "/service-areas/delta/drywall",
       "destination": "/service-areas/delta#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/delta/insulation-vapour-barriers",
+      "destination": "/service-areas/delta#insulation-vapour-barriers",
       "permanent": true
     },
     {
@@ -435,6 +465,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/white-rock/insulation-vapour-barriers",
+      "destination": "/service-areas/white-rock#insulation-vapour-barriers",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/white-rock/t-bar",
       "destination": "/service-areas/white-rock#t-bar",
       "permanent": true
@@ -502,6 +537,11 @@
     {
       "source": "/service-areas/coquitlam/drywall",
       "destination": "/service-areas/coquitlam#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/coquitlam/insulation-vapour-barriers",
+      "destination": "/service-areas/coquitlam#insulation-vapour-barriers",
       "permanent": true
     },
     {
@@ -575,6 +615,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/port-coquitlam/insulation-vapour-barriers",
+      "destination": "/service-areas/port-coquitlam#insulation-vapour-barriers",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/port-coquitlam/t-bar",
       "destination": "/service-areas/port-coquitlam#t-bar",
       "permanent": true
@@ -642,6 +687,11 @@
     {
       "source": "/service-areas/port-moody/drywall",
       "destination": "/service-areas/port-moody#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/port-moody/insulation-vapour-barriers",
+      "destination": "/service-areas/port-moody#insulation-vapour-barriers",
       "permanent": true
     },
     {
@@ -715,6 +765,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/north-vancouver/insulation-vapour-barriers",
+      "destination": "/service-areas/north-vancouver#insulation-vapour-barriers",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/north-vancouver/t-bar",
       "destination": "/service-areas/north-vancouver#t-bar",
       "permanent": true
@@ -782,6 +837,11 @@
     {
       "source": "/service-areas/west-vancouver/drywall",
       "destination": "/service-areas/west-vancouver#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/west-vancouver/insulation-vapour-barriers",
+      "destination": "/service-areas/west-vancouver#insulation-vapour-barriers",
       "permanent": true
     },
     {
@@ -855,6 +915,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/langley/insulation-vapour-barriers",
+      "destination": "/service-areas/langley#insulation-vapour-barriers",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/langley/t-bar",
       "destination": "/service-areas/langley#t-bar",
       "permanent": true
@@ -922,6 +987,11 @@
     {
       "source": "/service-areas/maple-ridge/drywall",
       "destination": "/service-areas/maple-ridge#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/maple-ridge/insulation-vapour-barriers",
+      "destination": "/service-areas/maple-ridge#insulation-vapour-barriers",
       "permanent": true
     },
     {
@@ -995,6 +1065,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/pitt-meadows/insulation-vapour-barriers",
+      "destination": "/service-areas/pitt-meadows#insulation-vapour-barriers",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/pitt-meadows/t-bar",
       "destination": "/service-areas/pitt-meadows#t-bar",
       "permanent": true
@@ -1062,6 +1137,11 @@
     {
       "source": "/service-areas/abbotsford/drywall",
       "destination": "/service-areas/abbotsford#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/abbotsford/insulation-vapour-barriers",
+      "destination": "/service-areas/abbotsford#insulation-vapour-barriers",
       "permanent": true
     },
     {
@@ -1135,6 +1215,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/chilliwack/insulation-vapour-barriers",
+      "destination": "/service-areas/chilliwack#insulation-vapour-barriers",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/chilliwack/t-bar",
       "destination": "/service-areas/chilliwack#t-bar",
       "permanent": true
@@ -1202,6 +1287,11 @@
     {
       "source": "/service-areas/mission/drywall",
       "destination": "/service-areas/mission#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/mission/insulation-vapour-barriers",
+      "destination": "/service-areas/mission#insulation-vapour-barriers",
       "permanent": true
     },
     {
@@ -1275,6 +1365,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/anmore/insulation-vapour-barriers",
+      "destination": "/service-areas/anmore#insulation-vapour-barriers",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/anmore/t-bar",
       "destination": "/service-areas/anmore#t-bar",
       "permanent": true
@@ -1342,6 +1437,11 @@
     {
       "source": "/service-areas/belcarra/drywall",
       "destination": "/service-areas/belcarra#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/belcarra/insulation-vapour-barriers",
+      "destination": "/service-areas/belcarra#insulation-vapour-barriers",
       "permanent": true
     },
     {
@@ -1415,6 +1515,11 @@
       "permanent": true
     },
     {
+      "source": "/service-areas/lions-bay/insulation-vapour-barriers",
+      "destination": "/service-areas/lions-bay#insulation-vapour-barriers",
+      "permanent": true
+    },
+    {
       "source": "/service-areas/lions-bay/t-bar",
       "destination": "/service-areas/lions-bay#t-bar",
       "permanent": true
@@ -1472,6 +1577,71 @@
     {
       "source": "/service-areas/lions-bay/home-improvement",
       "destination": "/service-areas/lions-bay#home-improvement",
+      "permanent": true
+    },
+    {
+      "source": "/steel-stud-facts",
+      "destination": "/guides/steel-stud-framing-facts",
+      "permanent": true
+    },
+    {
+      "source": "/services/drywall-framing",
+      "destination": "/drywall",
+      "permanent": true
+    },
+    {
+      "source": "/services/commercial-interior-contractors",
+      "destination": "/tenant-improvements",
+      "permanent": true
+    },
+    {
+      "source": "/tenant-improvement-contractors-vancouver",
+      "destination": "/tenant-improvements",
+      "permanent": true
+    },
+    {
+      "source": "/ceiling-repairs",
+      "destination": "/smoothing-ceilings",
+      "permanent": true
+    },
+    {
+      "source": "/about-us",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/contact-drywall-contractors",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/services/drywall-framing/drywall-contractor-burnaby",
+      "destination": "/service-areas/burnaby#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/services/drywall-framing/drywall-contractors-coquitlam",
+      "destination": "/service-areas/coquitlam#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/services/drywall-framing/drywall-contractors-new-westminster",
+      "destination": "/service-areas/new-westminster#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/services/drywall-framing/drywall-contractor-richmond",
+      "destination": "/service-areas/richmond#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/services/drywall-framing/drywall-contractors-vancouver",
+      "destination": "/service-areas/vancouver#drywall",
+      "permanent": true
+    },
+    {
+      "source": "/services/drywall-repair-service-vancouver",
+      "destination": "/drywall-repair-neighbourhoods",
       "permanent": true
     }
   ],
