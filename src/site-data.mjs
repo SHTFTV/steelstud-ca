@@ -90,16 +90,16 @@ export const projects = [
 ];
 
 export const archiveGallery = [
-  ...["main","17","23","21","10","11","5","3","2","6","13","12","18","15","14"].map((file,i)=>({image:`archive/steelstud-project${file}.jpg`,title:`Steel framing and renovation project — archived view ${String(i+1).padStart(2,"0")}`,group:"2019 SteelStud.ca portfolio"})),
-  {image:"archive/building-suites.jpg",title:"Steel-stud suite construction",group:"Earlier SteelStud.ca portfolio"},
-  {image:"archive/lighting-effect.jpg",title:"Steel-stud and drywall lighting feature",group:"Earlier SteelStud.ca portfolio"},
-  {image:"archive/lighting-effect-vancouver.jpg",title:"Vancouver architectural lighting feature",group:"Earlier SteelStud.ca portfolio"},
-  {image:"archive/commercial-framing-before.jpg",title:"Commercial steel-framing project",group:"Earlier SteelStud.ca portfolio"},
-  {image:"archive/patient-offices.jpg",title:"Patient-office interior",group:"Commercial ceiling archive"},
-  {image:"archive/commercial-ceiling.jpg",title:"Commercial ceiling installation",group:"Commercial ceiling archive"},
-  {image:"archive/accent-canopy-ceiling.jpg",title:"Accent canopy ceiling",group:"Commercial ceiling archive"},
-  {image:"archive/metalworks-ceiling.jpg",title:"Metalworks ceiling system",group:"Commercial ceiling archive"},
-  {image:"archive/formation-ceiling.jpg",title:"Formation ceiling system",group:"Commercial ceiling archive"},
+  ...["main","17","23","21","10","11","5","3","2","6","13","12","18","15","14"].map(file=>({image:`archive/steelstud-project${file}.jpg`,title:"",description:""})),
+  {image:"archive/building-suites.jpg",title:"Steel-stud suite construction",description:"Light-gauge steel framing used to lay out interior suite walls and openings."},
+  {image:"archive/lighting-effect.jpg",title:"Steel-stud and drywall lighting feature",description:"Framed and drywalled architectural feature designed around integrated lighting."},
+  {image:"archive/lighting-effect-vancouver.jpg",title:"Vancouver architectural lighting feature",description:"A finished wall-and-ceiling feature using concealed framing and lighting."},
+  {image:"archive/commercial-framing-before.jpg",title:"Commercial steel-framing project",description:"Commercial interior framing photographed during construction before the finished surfaces were installed."},
+  {image:"archive/patient-offices.jpg",title:"Patient-office interior",description:"Interior office construction from the earlier commercial project archive."},
+  {image:"archive/commercial-ceiling.jpg",title:"Commercial ceiling installation",description:"Completed commercial ceiling work documented on the original SteelStud.ca site."},
+  {image:"archive/accent-canopy-ceiling.jpg",title:"Accent canopy ceiling",description:"An architectural canopy ceiling used to define an area within a commercial interior."},
+  {image:"archive/metalworks-ceiling.jpg",title:"Metal ceiling system",description:"A specialty metal ceiling example retained from the original commercial ceiling portfolio."},
+  {image:"archive/formation-ceiling.jpg",title:"Formation ceiling system",description:"A formed specialty ceiling example from the original SteelStud.ca commercial archive."},
 ];
 
 export const guides = [
