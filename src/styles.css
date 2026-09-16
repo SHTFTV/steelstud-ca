@@ -53,25 +53,15 @@ h3{line-height:1.2}
 .float{position:fixed;right:18px;bottom:18px;z-index:30;display:flex;flex-direction:column;gap:8px}
 .float a{background:var(--steel);color:#fff;text-decoration:none;padding:.7rem .9rem;border-radius:999px;box-shadow:0 6px 20px #0003;font-weight:750}
 .float a:first-child{background:var(--accent)}
-.portfolio-heading{text-align:center;margin-bottom:30px}
-.portfolio-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0}
-.portfolio-item{position:relative;appearance:none;border:0;padding:0;background:#d8e0e4;cursor:pointer;overflow:hidden;aspect-ratio:1.41/1}
-.portfolio-item img{width:100%;height:100%;object-fit:cover}
-.portfolio-item span{position:absolute;inset:0;display:grid;place-items:center;background:rgba(207,91,43,.78);color:#fff;font-size:44px;font-weight:300;opacity:0;transition:opacity .2s}
-.portfolio-item:hover span,.portfolio-item:focus-visible span{opacity:1}
-.portfolio-item:focus-visible{outline:3px solid #101820;outline-offset:-3px}
-.portfolio-lightbox{width:100vw;height:100vh;max-width:none;max-height:none;margin:0;border:0;padding:42px 72px;background:rgba(5,10,14,.96);color:#fff}
-.portfolio-lightbox::backdrop{background:rgba(5,10,14,.96)}
-.portfolio-lightbox[open]{display:flex;align-items:center;justify-content:center}
-.portfolio-lightbox figure{margin:0;display:flex;flex-direction:column;align-items:center;max-width:90vw;max-height:90vh}
-.portfolio-lightbox figure img{max-width:100%;max-height:82vh;object-fit:contain}
-.portfolio-lightbox figcaption{min-height:30px;padding-top:10px;font-weight:700}
-.portfolio-lightbox button{position:absolute;border:0;background:transparent;color:#fff;cursor:pointer}
-.portfolio-close{right:22px;top:12px;font-size:48px;line-height:1}
-.portfolio-nav{top:50%;font-size:64px;transform:translateY(-50%)}
-.portfolio-prev{left:18px}
-.portfolio-next{right:18px}
+.project-photo-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-top:48px}
+.project-photo-grid figure{margin:0;border:1px solid var(--line);background:#fff}
+.project-photo-grid img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.project-photo-grid figcaption{padding:14px 16px;color:#42515d}
+.project-links{margin-top:42px;padding:28px;background:var(--light);border-left:4px solid var(--accent)}
+.project-links h2{font-size:1.6rem}
+.project-links a{color:var(--blue);font-weight:750}
 @media(max-width:820px){.menu{display:none}
+.project-photo-grid{grid-template-columns:1fr}
 .grid{grid-template-columns:1fr}
 .split{grid-template-columns:1fr}
 .stats{grid-template-columns:1fr}
@@ -79,16 +69,4 @@ h3{line-height:1.2}
 .footer-grid{display:grid}
 .top .wrap{font-size:.8rem}
 .float a{font-size:.85rem}
-.portfolio-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
-.portfolio-lightbox{padding:54px 44px}
-.portfolio-nav{font-size:50px}
-.portfolio-prev{left:4px}
-.portfolio-next{right:4px}
 }
-.portfolio-group{margin-top:46px}
-.portfolio-group:first-of-type{margin-top:0}
-.portfolio-group>h3{font-size:clamp(1.55rem,3vw,2.2rem);margin:0 0 14px;padding-bottom:10px;border-bottom:3px solid var(--accent)}
-.portfolio-item::after{content:'SteelStud.ca';position:absolute;right:8px;bottom:6px;z-index:2;color:#fff;font:700 12px/1.2 Inter,Arial,sans-serif;letter-spacing:.02em;text-shadow:0 1px 4px #000,0 1px 8px #000;background:rgba(5,10,14,.34);padding:3px 6px}
-.portfolio-item span{z-index:3}
-.portfolio-lightbox figure{position:relative}
-.portfolio-lightbox figure::after{content:'SteelStud.ca';position:absolute;right:10px;bottom:42px;color:#fff;font-weight:800;text-shadow:0 1px 5px #000,0 1px 10px #000;background:rgba(5,10,14,.38);padding:4px 8px}
