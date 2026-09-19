@@ -1580,6 +1580,11 @@
       "permanent": true
     },
     {
+      "source": "/project-gallery",
+      "destination": "/projects",
+      "permanent": true
+    },
+    {
       "source": "/steel-stud-facts",
       "destination": "/guides/steel-stud-framing-facts",
       "permanent": true
