@@ -2,3 +2,12 @@ import { readFile, readdir } from "node:fs/promises"; import { join } from "node
 const root=new URL("..",import.meta.url).pathname,dist=join(root,"dist"); let pages=[];
 async function walk(d){for(const x of await readdir(d,{withFileTypes:true})){const p=join(d,x.name);if(x.isDirectory())await walk(p);else if(x.name==="index.html")pages.push(p)}}await walk(dist);
 const titles=new Set(),canon=new Set();for(const p of pages){const h=await readFile(p,"utf8");for(const token of ["<title>","meta name=\"description\"","rel=\"canonical\"","<h1","id=\"steelstud-help\"","href=\"/floater.css\""])if(!h.includes(token))throw new Error(`${p} missing ${token}`);const t=h.match(/<title>(.*?)<\/title>/)?.[1],c=h.match(/rel="canonical" href="(.*?)"/)?.[1];if(titles.has(t)||canon.has(c))throw new Error(`Duplicate metadata: ${p}`);titles.add(t);canon.add(c);for(const bad of ["wordpress","wp-content","lovable","replit","aistudio"])if(h.toLowerCase().includes(bad))throw new Error(`${p} contains ${bad}`)}console.log(`Verified ${pages.length} unique, crawlable pages with the site-wide help floater; platform scrub clean.`);
+const config=JSON.parse(await readFile(join(root,"vercel.json"),"utf8"));
+for(const {source,destination} of config.redirects){
+  if(!destination.startsWith("/"))continue;
+  const [target,fragment]=destination.split("#");
+  const targetFile=target==="/"?join(dist,"index.html"):join(dist,target,"index.html");
+  let html; try{html=await readFile(targetFile,"utf8")}catch{throw new Error(`${source} redirects to missing page ${destination}`)}
+  if(fragment&&!html.includes(`id="${fragment}"`))throw new Error(`${source} redirects to missing fragment ${destination}`);
+}
+console.log(`Verified ${config.redirects.length} local redirect targets.`);
