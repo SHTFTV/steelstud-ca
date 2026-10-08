@@ -36,12 +36,12 @@
     },
     {
       "source": "/service-areas/vancouver/tenant-improvements",
-      "destination": "/service-areas/vancouver#tenant-improvements",
+      "destination": "/tenant-improvements",
       "permanent": true
     },
     {
       "source": "/service-areas/vancouver/office-buildouts",
-      "destination": "/service-areas/vancouver#office-buildouts",
+      "destination": "/office-buildouts",
       "permanent": true
     },
     {
@@ -76,12 +76,12 @@
     },
     {
       "source": "/service-areas/burnaby/tenant-improvements",
-      "destination": "/service-areas/burnaby#tenant-improvements",
+      "destination": "/tenant-improvements",
       "permanent": true
     },
     {
       "source": "/service-areas/burnaby/office-buildouts",
-      "destination": "/service-areas/burnaby#office-buildouts",
+      "destination": "/office-buildouts",
       "permanent": true
     },
     {
@@ -116,12 +116,12 @@
     },
     {
       "source": "/service-areas/new-westminster/tenant-improvements",
-      "destination": "/service-areas/new-westminster#tenant-improvements",
+      "destination": "/tenant-improvements",
       "permanent": true
     },
     {
       "source": "/service-areas/new-westminster/office-buildouts",
-      "destination": "/service-areas/new-westminster#office-buildouts",
+      "destination": "/office-buildouts",
       "permanent": true
     },
     {
@@ -156,12 +156,12 @@
     },
     {
       "source": "/service-areas/richmond/tenant-improvements",
-      "destination": "/service-areas/richmond#tenant-improvements",
+      "destination": "/tenant-improvements",
       "permanent": true
     },
     {
       "source": "/service-areas/richmond/office-buildouts",
-      "destination": "/service-areas/richmond#office-buildouts",
+      "destination": "/office-buildouts",
       "permanent": true
     },
     {
@@ -196,12 +196,12 @@
     },
     {
       "source": "/service-areas/surrey/tenant-improvements",
-      "destination": "/service-areas/surrey#tenant-improvements",
+      "destination": "/tenant-improvements",
       "permanent": true
     },
     {
       "source": "/service-areas/surrey/office-buildouts",
-      "destination": "/service-areas/surrey#office-buildouts",
+      "destination": "/office-buildouts",
       "permanent": true
     },
     {
@@ -236,12 +236,12 @@
     },
     {
       "source": "/service-areas/delta/tenant-improvements",
-      "destination": "/service-areas/delta#tenant-improvements",
+      "destination": "/tenant-improvements",
       "permanent": true
     },
     {
       "source": "/service-areas/delta/office-buildouts",
-      "destination": "/service-areas/delta#office-buildouts",
+      "destination": "/office-buildouts",
       "permanent": true
     },
     {
@@ -276,12 +276,12 @@
     },
     {
       "source": "/service-areas/white-rock/tenant-improvements",
-      "destination": "/service-areas/white-rock#tenant-improvements",
+      "destination": "/tenant-improvements",
       "permanent": true
     },
     {
       "source": "/service-areas/white-rock/office-buildouts",
-      "destination": "/service-areas/white-rock#office-buildouts",
+      "destination": "/office-buildouts",
       "permanent": true
     },
     {
@@ -316,12 +316,12 @@
     },
     {
       "source": "/service-areas/coquitlam/tenant-improvements",
-      "destination": "/service-areas/coquitlam#tenant-improvements",
+      "destination": "/tenant-improvements",
       "permanent": true
     },
     {
       "source": "/service-areas/coquitlam/office-buildouts",
-      "destination": "/service-areas/coquitlam#office-buildouts",
+      "destination": "/office-buildouts",
       "permanent": true
     },
     {
@@ -356,12 +356,12 @@
     },
     {
       "source": "/service-areas/port-coquitlam/tenant-improvements",
-      "destination": "/service-areas/port-coquitlam#tenant-improvements",
+      "destination": "/tenant-improvements",
       "permanent": true
     },
     {
       "source": "/service-areas/port-coquitlam/office-buildouts",
-      "destination": "/service-areas/port-coquitlam#office-buildouts",
+      "destination": "/office-buildouts",
       "permanent": true
     },
     {
@@ -396,12 +396,12 @@
     },
     {
       "source": "/service-areas/port-moody/tenant-improvements",
-      "destination": "/service-areas/port-moody#tenant-improvements",
+      "destination": "/tenant-improvements",
       "permanent": true
     },
     {
       "source": "/service-areas/port-moody/office-buildouts",
-      "destination": "/service-areas/port-moody#office-buildouts",
+      "destination": "/office-buildouts",
       "permanent": true
     },
     {
@@ -436,12 +436,12 @@
     },
     {
       "source": "/service-areas/north-vancouver/tenant-improvements",
-      "destination": "/service-areas/north-vancouver#tenant-improvements",
+      "destination": "/tenant-improvements",
       "permanent": true
     },
     {
       "source": "/service-areas/north-vancouver/office-buildouts",
-      "destination": "/service-areas/north-vancouver#office-buildouts",
+      "destination": "/office-buildouts",
       "permanent": true
     },
     {
@@ -476,12 +476,12 @@
     },
     {
       "source": "/service-areas/west-vancouver/tenant-improvements",
-      "destination": "/service-areas/west-vancouver#tenant-improvements",
+      "destination": "/tenant-improvements",
       "permanent": true
     },
     {
       "source": "/service-areas/west-vancouver/office-buildouts",
-      "destination": "/service-areas/west-vancouver#office-buildouts",
+      "destination": "/office-buildouts",
       "permanent": true
     },
     {
@@ -516,12 +516,12 @@
     },
     {
       "source": "/service-areas/langley/tenant-improvements",
-      "destination": "/service-areas/langley#tenant-improvements",
+      "destination": "/tenant-improvements",
       "permanent": true
     },
     {
       "source": "/service-areas/langley/office-buildouts",
-      "destination": "/service-areas/langley#office-buildouts",
+      "destination": "/office-buildouts",
       "permanent": true
     },
     {
@@ -556,12 +556,12 @@
     },
     {
       "source": "/service-areas/maple-ridge/tenant-improvements",
-      "destination": "/service-areas/maple-ridge#tenant-improvements",
+      "destination": "/tenant-improvements",
       "permanent": true
     },
     {
       "source": "/service-areas/maple-ridge/office-buildouts",
-      "destination": "/service-areas/maple-ridge#office-buildouts",
+      "destination": "/office-buildouts",
       "permanent": true
     },
     {
@@ -596,12 +596,12 @@
     },
     {
       "source": "/service-areas/pitt-meadows/tenant-improvements",
-      "destination": "/service-areas/pitt-meadows#tenant-improvements",
+      "destination": "/tenant-improvements",
       "permanent": true
     },
     {
       "source": "/service-areas/pitt-meadows/office-buildouts",
-      "destination": "/service-areas/pitt-meadows#office-buildouts",
+      "destination": "/office-buildouts",
       "permanent": true
     },
     {
@@ -636,12 +636,12 @@
     },
     {
       "source": "/service-areas/abbotsford/tenant-improvements",
-      "destination": "/service-areas/abbotsford#tenant-improvements",
+      "destination": "/tenant-improvements",
       "permanent": true
     },
     {
       "source": "/service-areas/abbotsford/office-buildouts",
-      "destination": "/service-areas/abbotsford#office-buildouts",
+      "destination": "/office-buildouts",
       "permanent": true
     },
     {
@@ -676,12 +676,12 @@
     },
     {
       "source": "/service-areas/chilliwack/tenant-improvements",
-      "destination": "/service-areas/chilliwack#tenant-improvements",
+      "destination": "/tenant-improvements",
       "permanent": true
     },
     {
       "source": "/service-areas/chilliwack/office-buildouts",
-      "destination": "/service-areas/chilliwack#office-buildouts",
+      "destination": "/office-buildouts",
       "permanent": true
     },
     {
@@ -716,12 +716,12 @@
     },
     {
       "source": "/service-areas/mission/tenant-improvements",
-      "destination": "/service-areas/mission#tenant-improvements",
+      "destination": "/tenant-improvements",
       "permanent": true
     },
     {
       "source": "/service-areas/mission/office-buildouts",
-      "destination": "/service-areas/mission#office-buildouts",
+      "destination": "/office-buildouts",
       "permanent": true
     },
     {
@@ -756,12 +756,12 @@
     },
     {
       "source": "/service-areas/anmore/tenant-improvements",
-      "destination": "/service-areas/anmore#tenant-improvements",
+      "destination": "/tenant-improvements",
       "permanent": true
     },
     {
       "source": "/service-areas/anmore/office-buildouts",
-      "destination": "/service-areas/anmore#office-buildouts",
+      "destination": "/office-buildouts",
       "permanent": true
     },
     {
@@ -796,12 +796,12 @@
     },
     {
       "source": "/service-areas/belcarra/tenant-improvements",
-      "destination": "/service-areas/belcarra#tenant-improvements",
+      "destination": "/tenant-improvements",
       "permanent": true
     },
     {
       "source": "/service-areas/belcarra/office-buildouts",
-      "destination": "/service-areas/belcarra#office-buildouts",
+      "destination": "/office-buildouts",
       "permanent": true
     },
     {
@@ -836,12 +836,12 @@
     },
     {
       "source": "/service-areas/lions-bay/tenant-improvements",
-      "destination": "/service-areas/lions-bay#tenant-improvements",
+      "destination": "/tenant-improvements",
       "permanent": true
     },
     {
       "source": "/service-areas/lions-bay/office-buildouts",
-      "destination": "/service-areas/lions-bay#office-buildouts",
+      "destination": "/office-buildouts",
       "permanent": true
     },
     {
