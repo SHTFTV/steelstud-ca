@@ -1053,5 +1053,11 @@
         }
       ]
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/blog/commercial-bulkheads-grid-overhead-coordination",
+      "destination": "/blog/commercial-bulkheads-grid-overhead-coordination/index.html"
+    }
   ]
 }
