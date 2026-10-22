@@ -1,3 +1,4 @@
+import { creditRealProjectPhotos } from "./real-project-photos.mjs";
 import { rm, mkdir, cp, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { business, services, cities, projects, archiveGallery, guides, drywallSolutions, repairProblems, repairNeighbourhoods } from "../src/site-data.mjs";
@@ -19,7 +20,7 @@ function page({path,title,description,body,json=[],image="/opengraph.jpg",imageA
 async function emit(path,html){
   const dir=path==="/"?dist:join(dist,path);
   await mkdir(dir,{recursive:true});
-  await writeFile(join(dir,"index.html"),html);
+  await writeFile(join(dir,"index.html"),creditRealProjectPhotos(html,path));
 }
 const primaryServiceSlugs=["framing-in-steel","drywall","soundproofing","insulation-vapour-barriers","t-bar","drop-ceilings","tenant-improvements","office-buildouts"];
 const primaryServices=primaryServiceSlugs.map(slug=>services.find(s=>s.slug===slug)).filter(Boolean);
