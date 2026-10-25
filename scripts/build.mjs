@@ -133,3 +133,6 @@ await fieldFs.writeFile(fieldHome,(await fieldFs.readFile(fieldHome,"utf8")).rep
 const fieldMap=join(dist,"sitemap.xml");await fieldFs.writeFile(fieldMap,(await fieldFs.readFile(fieldMap,"utf8")).replace("</urlset>","<url><loc>https://www.steelstud.ca/blog/commercial-bulkheads-grid-overhead-coordination</loc><lastmod>2026-10-21</lastmod></url></urlset>"));
 
 const fieldConfigPath=join(root,"vercel.json");const fieldConfig=JSON.parse(await fieldFs.readFile(fieldConfigPath,"utf8"));fieldConfig.rewrites=[{source:"/blog/commercial-bulkheads-grid-overhead-coordination",destination:"/blog/commercial-bulkheads-grid-overhead-coordination/index.html"},...(fieldConfig.rewrites||[])];await fieldFs.writeFile(fieldConfigPath,JSON.stringify(fieldConfig,null,2)+"\n");
+
+await cp(join(root,'rambo-contact.css'),join(dist,'rambo-contact.css'));await cp(join(root,'rambo-contact.js'),join(dist,'rambo-contact.js'));
+const {installRamboCards}=await import('./rambo-contact.mjs');installRamboCards(dist);
