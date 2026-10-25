@@ -13,7 +13,9 @@ export function installRamboCards(root) {
    if(!source.includes('/rambo-contact.css'))source=source.replace('</head>','<link rel="stylesheet" href="/rambo-contact.css"/></head>');
    if(!source.includes('src="/rambo-contact.js"'))source=source.replace('</body>','<script src="/rambo-contact.js" defer></script></body>');
    const body=(source.match(/<main\b[^>]*>[\s\S]*?<\/main>/i)||[])[0] || source.replace(/<(script|style|header|nav|footer)\b[^>]*>[\s\S]*?<\/\1>/gi,'');
-   if(/rambo|mason\s+mckenzie/i.test(body)) {
+   const route = '/'+path.relative(root,file).replace(/\/index\.html$/, '').replace(/^index\.html$/,'');
+   const contentRoute = /^\/(?:blog|projects?|guides)\/[^/]+/.test(route);
+   if(contentRoute && /rambo|mason\s+mckenzie/i.test(body)) {
     assigned.push('/'+path.relative(root,file).replace(/\/index\.html$/, '').replace(/^index\.html$/,''));
     if(!source.includes('data-rambo-contact-owner'))source=source.replace('<html ', '<html data-rambo-contact-owner ');
     if(!source.includes('id="rambo-network-contact"'))source=source.replace('</body>',markup+'</body>');
