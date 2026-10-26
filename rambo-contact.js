@@ -7,7 +7,8 @@ function sync() {
   if (current !== route) { route = current; hidden = false; }
   // A photo credit, teaser or site navigation never assigns the whole page to Rambo.
   const contentRoute = /^\/(?:blog|projects?)\/[^/]+/.test(location.pathname);
-  const assigned = contentRoute && document.documentElement.hasAttribute('data-rambo-contact-owner');
+  const assignedCity = /^\/service-areas\/(burnaby|surrey|vancouver|langley)\/?$/.test(location.pathname);
+  const assigned = (contentRoute || assignedCity) && document.documentElement.hasAttribute('data-rambo-contact-owner');
   host = document.getElementById('rambo-network-contact');
   if (!host && assigned) { document.body.insertAdjacentHTML('beforeend', markup); host = document.getElementById('rambo-network-contact'); }
   if (!host) return;

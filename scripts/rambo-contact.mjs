@@ -13,7 +13,8 @@ export function installRamboCards(root) {
    const body=(source.match(/<main\b[^>]*>[\s\S]*?<\/main>/i)||[])[0] || source.replace(/<(script|style|header|nav|footer)\b[^>]*>[\s\S]*?<\/\1>/gi,'');
    const route = '/'+path.relative(root,file).replace(/\/index\.html$/, '').replace(/^index\.html$/,'');
    const contentRoute = /^\/(?:blog|projects?)\/[^/]+/.test(route);
-   if(contentRoute && /rambo|mason\s+mckenzie/i.test(body)) {
+   const assignedCity = /^\/service-areas\/(burnaby|surrey|vancouver|langley)$/.test(route);
+   if((contentRoute || assignedCity) && /rambo|mason\s+mckenzie/i.test(body)) {
     source=source.replace('</head>','<link rel="stylesheet" href="/rambo-contact.css?v=posts-only-20261025"/></head>').replace('</body>','<script src="/rambo-contact.js?v=posts-only-20261025" defer></script></body>');
     assigned.push('/'+path.relative(root,file).replace(/\/index\.html$/, '').replace(/^index\.html$/,''));
     if(!source.includes('data-rambo-contact-owner'))source=source.replace('<html ', '<html data-rambo-contact-owner ');
