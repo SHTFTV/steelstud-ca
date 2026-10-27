@@ -142,3 +142,13 @@ const fieldConfigPath=join(root,"vercel.json");const fieldConfig=JSON.parse(awai
 
 await cp(join(root,'rambo-contact.css'),join(dist,'rambo-contact.css'));await cp(join(root,'rambo-contact.js'),join(dist,'rambo-contact.js'));
 const {installRamboCards}=await import('./rambo-contact.mjs');installRamboCards(dist);
+
+
+// Publish the new standalone field note through the existing generator.
+const ramboOct27Slug="commercial-demising-walls-ceiling-interfaces";
+await cp(join(root,"blog",ramboOct27Slug),join(dist,"blog",ramboOct27Slug),{recursive:true});
+await fieldFs.writeFile(fieldHome,(await fieldFs.readFile(fieldHome,"utf8")).replace("</body>","<section data-rambo-oct27=\"true\" style=\"padding:32px 6vw;background:#eef0eb;color:#202725\"><p>PROJECT FIELD NOTES \u00b7 OCTOBER 27, 2026</p><h2><a href=\"/blog/commercial-demising-walls-ceiling-interfaces\">Demising walls and ceilings: read the interfaces before close-in</a></h2><p>Credited Rambo project photography: framing, ceiling edges and installation handoffs.</p></section>"+"</body>"));
+await fieldFs.writeFile(fieldMap,(await fieldFs.readFile(fieldMap,"utf8")).replace("</urlset>","<url><loc>https://www.steelstud.ca/blog/commercial-demising-walls-ceiling-interfaces</loc><lastmod>2026-10-27</lastmod></url></urlset>"));
+const ramboOct27Config=JSON.parse(await fieldFs.readFile(fieldConfigPath,"utf8"));
+ramboOct27Config.rewrites=[{source:"/blog/"+ramboOct27Slug,destination:"/blog/"+ramboOct27Slug+"/index.html"},...(ramboOct27Config.rewrites||[])];
+await fieldFs.writeFile(fieldConfigPath,JSON.stringify(ramboOct27Config,null,2)+"\n");
