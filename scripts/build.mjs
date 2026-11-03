@@ -141,7 +141,7 @@ const fieldMap=join(dist,"sitemap.xml");await fieldFs.writeFile(fieldMap,(await 
 const fieldConfigPath=join(root,"vercel.json");const fieldConfig=JSON.parse(await fieldFs.readFile(fieldConfigPath,"utf8"));fieldConfig.rewrites=[{source:"/blog/commercial-bulkheads-grid-overhead-coordination",destination:"/blog/commercial-bulkheads-grid-overhead-coordination/index.html"},...(fieldConfig.rewrites||[])];await fieldFs.writeFile(fieldConfigPath,JSON.stringify(fieldConfig,null,2)+"\n");
 
 await cp(join(root,'rambo-contact.css'),join(dist,'rambo-contact.css'));await cp(join(root,'rambo-contact.js'),join(dist,'rambo-contact.js'));
-const {installRamboCards}=await import('./rambo-contact.mjs');installRamboCards(dist);
+const {installRamboCards}=await import('./rambo-contact.mjs');
 
 
 // Publish the new standalone field note through the existing generator.
@@ -152,3 +152,8 @@ await fieldFs.writeFile(fieldMap,(await fieldFs.readFile(fieldMap,"utf8")).repla
 const ramboOct27Config=JSON.parse(await fieldFs.readFile(fieldConfigPath,"utf8"));
 ramboOct27Config.rewrites=[{source:"/blog/"+ramboOct27Slug,destination:"/blog/"+ramboOct27Slug+"/index.html"},...(ramboOct27Config.rewrites||[])];
 await fieldFs.writeFile(fieldConfigPath,JSON.stringify(ramboOct27Config,null,2)+"\n");
+
+// Install attributed cards only after every editorial page exists.
+const {publishFieldNotes}=await import('./field-notes.mjs');
+await publishFieldNotes({root,dist,page,emit});
+installRamboCards(dist);

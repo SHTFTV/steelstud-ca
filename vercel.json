@@ -1056,6 +1056,10 @@
   ],
   "rewrites": [
     {
+      "source": "/blog/vestibule-opening-review-rambo-burnaby",
+      "destination": "/blog/vestibule-opening-review-rambo-burnaby/index.html"
+    },
+    {
       "source": "/blog/commercial-demising-walls-ceiling-interfaces",
       "destination": "/blog/commercial-demising-walls-ceiling-interfaces/index.html"
     },
