@@ -158,6 +158,40 @@ export const archiveGallery = [
 ];
 
 export const guides = [
+{
+  "slug": "suspended-drywall-ceilings-vancouver",
+  "title": "Suspended drywall ceilings in Vancouver: what to settle before boarding",
+  "intro": "A continuous painted ceiling can hide ducts and pipes beautifully. In a Vancouver office or retail renovation, the expensive surprise is discovering that a valve, light or access hatch needs to go where the finished ceiling is already framed.",
+  "image": "archive/smooth-ceilings-from-texture-steelstud.ca_.jpg",
+  "sections": [
+    {
+      "h": "Start with a section through the tightest bay",
+      "p": "A reflected ceiling plan shows where fixtures sit when viewed from below. It does not show whether a duct elbow, light housing and framing can occupy the same space. Ask the project team for a section through the most crowded bay. Show the proposed finished ceiling height, the actual structure above and the lowest service. Resolve that bay before carrying the ceiling height across the room."
+    },
+    {
+      "h": "Give each access panel a job",
+      "p": "For a tenant improvement, walk the space with the mechanical and electrical trades. For each service point that must remain accessible, record what someone needs to reach, from which side, and how much room the task requires. An access panel directly beneath a valve is of little use if a duct blocks the reach. Mark the agreed openings on the same drawing used by the framing and finishing crews."
+    },
+    {
+      "h": "Quote the edges as carefully as the flat area",
+      "p": "Two ceilings with equal square footage can involve very different work. A simple rectangle has fewer interfaces than a ceiling that steps around glazing, turns into a bulkhead and meets an existing lobby finish. Ask bidders to break out transitions, reveals, access panels, board finish and painting. If the design calls for a rated or acoustic assembly, identify the specified assembly and refer changes to the design team before pricing a substitution."
+    },
+    {
+      "h": "Walk the ceiling before it closes",
+      "p": "Use one marked-up drawing at the pre-board walk. Check fixture centres against the furniture or reception desk below, confirm the access-panel positions with the trades that will use them, and photograph concealed service locations with a room reference. Agree on the finished appearance under the intended lighting. A long wash of light along a smooth ceiling can make joints more visible than the temporary work lights suggest."
+    }
+  ],
+  "faqs": [
+    [
+      "Where does suspended drywall work better than removable tile?",
+      "It suits areas where a continuous painted surface is important and service access can be planned at defined points. Where staff must reach equipment across many bays, review a removable ceiling or a mixed design before specifying drywall throughout."
+    ],
+    [
+      "What should I send for a Vancouver ceiling estimate?",
+      "Send the address, room dimensions, intended finished height, reflected ceiling plan, available sections and photos of the existing overhead space. Flag occupied hours, freight elevator access and any building-management requirements that affect when materials and crews can enter."
+    ]
+  ]
+},
   { slug:"coordinating-steel-stud-framing-with-building-services", title:"Coordinating Steel Stud Framing With Mechanical, Electrical and Sprinkler Trades", image:"service-steel.png", intro:"Good interior framing leaves every trade a workable path and resolves backing, openings and rated details before the board closes the wall.", sections:[{h:"Start with a coordinated layout",p:"Review architectural and reflected-ceiling plans together with mechanical, electrical, plumbing and sprinkler information. Confirm partitions, ceiling heights, openings, access panels and major service routes before framing."},{h:"Mark services and backing before closure",p:"Identify panels, carriers, millwork, washroom accessories and other supported items. Record backing while visible and use only service openings permitted by the selected framing system."},{h:"Protect complete assemblies",p:"Fire and acoustic performance belongs to complete assemblies. Coordinate head details, board layers, insulation, sealants and penetration systems, then inspect and photograph the work before closure."}],faqs:[["When should trade coordination happen?","Before framing, after layout and again before walls or ceilings are closed."],["Can services pass through steel studs?","Often yes through factory openings or permitted details, subject to the selected system and project requirements."],["What should be checked before drywall?","Layout, openings, backing, rough-ins, rated details and required inspection sign-offs."]]},
   { slug:"occupied-commercial-renovation-phasing-plan", title:"Occupied Commercial Renovations: A Practical Phasing Plan", image:"service-tenant-improvements.png", intro:"A phased plan protects occupants, keeps essential routes open and creates clean handoffs while an office, store or strata property remains in operation.", sections:[{h:"Define what must remain operational",p:"List occupied rooms, entrances, accessible routes, washrooms, loading areas, alarms and building services that cannot be interrupted. Confirm work hours and notice requirements."},{h:"Build complete work zones",p:"Each phase needs a clear boundary and enough time to be protected, built, inspected, cleaned and returned to service. Plan dust, noise, deliveries and temporary signs around actual operations."},{h:"Coordinate shutdowns and turnover",p:"Obtain approval for electrical, sprinkler, alarm and mechanical interruptions. Finish deficiencies, cleaning and life-safety checks before moving barriers and starting the next phase."}],faqs:[["Can a business stay open during renovation?","Often yes when the scope, hazards, access and building rules support a phased plan."],["What belongs in the schedule?","Notices, protection, deliveries, noise, shutdowns, inspections, cleaning and turnover as well as trade work."],["Who communicates with occupants?","The property manager normally controls notices while the contractor supplies accurate dates and impacts."]]},
 
