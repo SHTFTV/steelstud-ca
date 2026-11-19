@@ -160,6 +160,11 @@ export const archiveGallery = [
 export const guides = [
 {
   "slug": "suspended-drywall-ceilings-vancouver",
+  "publishedAt": "2026-11-18T15:30:37.756-08:00",
+  "publicationEvidence": {
+    "sourceCommit": "6f36e353c732009b805cb56d7ffbd1d2615e5826",
+    "productionDeployment": "dpl_87UXw8M9PRoLRdVrgV66uj5xKCNs"
+  },
   "title": "Suspended drywall ceilings in Vancouver: what to settle before boarding",
   "intro": "A continuous painted ceiling can hide ducts and pipes beautifully. In a Vancouver office or retail renovation, the expensive surprise is discovering that a valve, light or access hatch needs to go where the finished ceiling is already framed.",
   "image": "archive/smooth-ceilings-from-texture-steelstud.ca_.jpg",
