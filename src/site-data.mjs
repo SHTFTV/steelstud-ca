@@ -159,6 +159,75 @@ export const archiveGallery = [
 
 export const guides = [
 {
+  "slug": "film-edit-suite-soundproofing-shared-ducts-vancouver",
+  "title": "When a Film Edit Suite Shares a Wall With a Doctor’s Office",
+  "intro": "A loud playback session can reach the office next door through a wall, the space above a dropped ceiling or shared ductwork. Establish the route before you price a soundproofing retrofit.",
+  "date": "2026-11-19",
+  "dateLabel": "November 19, 2026",
+  "image": "archive/steelstud-projectmain.jpg",
+  "imageAlt": "Suspended acoustic ceiling grid and panels below exposed building services",
+  "imageCaption": "SteelStud.ca archive photograph of a suspended acoustic ceiling installation.",
+  "related": "https://acustiq.ca/",
+  "sections": [
+    {
+      "h": "Listen at the grille before you open the wall",
+      "p": "Picture a Vancouver edit suite playing back a horror scene. Next door, the medical office hears the scream and feels the bass. Ask the building manager to arrange a brief, controlled playback in both suites when it will not disrupt appointments. Note where the sound is strongest, when it occurs, and whether speech, sharp effects or bass are the issue. Give the assessment team the ceiling and mechanical plans, if available, and ask them to check where the separating wall ends and how both rooms return air."
+    },
+    {
+      "h": "Price the wall and ceiling as complete assemblies",
+      "p": "SteelStud can price framing to the structure where specified, cavity batts, additional gypsum layers, resilient channel or isolation clips, damping compound between board layers where specified, and perimeter and penetration details. Acoustic sealant closes air gaps at agreed joints. A damping compound serves a different job between layers. Have the design team identify the assembly and the junctions, door details, firestopping and access requirements before accepting substitutions."
+    },
+    {
+      "h": "Use the dropped ceiling for the right job",
+      "p": "Acoustic tiles can make playback and speech less reverberant inside a room. Between suites, sound can bypass the wall through an open ceiling plenum or follow a duct. An isolation ceiling uses a different assembly and needs coordinated details at lights, diffusers, access panels and sprinklers. Ask the contractor to price the actual ceiling scope, including reopening and repairing the existing grid or finishes if the work is phased."
+    },
+    {
+      "h": "Give shared ducts to the mechanical team",
+      "p": "The landlord or manager should arrange access to base-building systems and bring in the mechanical contractor or engineer. A confirmed duct path might call for a crosstalk attenuator, a revised branch route or a different return-air arrangement. The mechanical team needs to check airflow, pressure drop, fire and smoke requirements, access and balancing. Keep grilles working while the diagnosis is underway."
+    },
+    {
+      "h": "Get the lease responsibilities in writing",
+      "p": "Check the lease’s permitted use, noise provisions, alteration approvals and HVAC obligations. Ask the landlord to identify its approval process, who can work on shared systems, who pays each part of the job and whether the tenant must restore any work at move-out. A tenant-fit-out quote and a building-systems quote can be priced separately. The lease and written approvals determine responsibilities for this site. Have a BC commercial leasing lawyer review disputed clauses."
+    },
+    {
+      "h": "Is an acoustical consultant worth paying for?",
+      "p": "For loud film playback beside a clinic with possible shared ducts, start by pricing a focused site assessment. Ask for the likely transmission paths, a measurable isolation target that accounts for speech and bass, written construction and mechanical recommendations, and a separate option for post-work testing. Ask SteelStud to price framing, drywall and ceilings against that scope. Compare bids on the same work, including access, protection, hours and finish repairs."
+    }
+  ],
+  "faqs": [
+    [
+      "Will resilient channel and damping compound solve sound coming out of the return grille?",
+      "They may improve a specified wall or ceiling assembly. If the return air path carries sound between suites, the mechanical team needs to assess and address that path as well."
+    ],
+    [
+      "What should I send for a soundproofing estimate?",
+      "Send the site address, suite and ceiling plans if available, a description of the playback and the noise heard next door, access restrictions, and any acoustic or mechanical report. Identify which scope the landlord has approved."
+    ]
+  ],
+  "sources": [
+    [
+      "ASHRAE Handbook: ductborne sound and crosstalk",
+      "https://handbook.ashrae.org/handbooks/F25/SI/F25_Ch08/F25_Ch08_si.aspx"
+    ],
+    [
+      "National Research Council Canada: direct and flanking sound transmission",
+      "https://nrc.canada.ca/en/research-development/products-services/software-applications/soundpaths-web-application-predict-sound-transmission-between-rooms"
+    ],
+    [
+      "Law Society of BC: commercial lease checklist",
+      "https://www.lawsociety.bc.ca/getContentAsset/b7c39a86-d8ed-40a2-93c1-28e7deca7bcd/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/B-11.pdf?language=en-CA"
+    ],
+    [
+      "SteelStud.ca soundproofing and acoustic assemblies",
+      "/soundproofing"
+    ],
+    [
+      "Contact SteelStud.ca about your plans",
+      "mailto:frameinsteel@gmail.com"
+    ]
+  ]
+},
+{
   "slug": "suspended-drywall-ceilings-vancouver",
   "title": "Suspended drywall ceilings in Vancouver: what to settle before boarding",
   "intro": "A continuous painted ceiling can hide ducts and pipes beautifully. In a Vancouver office or retail renovation, the expensive surprise is discovering that a valve, light or access hatch needs to go where the finished ceiling is already framed.",
